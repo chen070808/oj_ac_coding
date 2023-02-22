@@ -1,1 +1,0 @@
-{"name":"Local: 1","url":"d:\\vs_c\\fushi\\dhu\\basic\\1.cpp","tests":[{"id":1675062159222,"input":"40 5","output":"200 90"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\vs_c\\fushi\\dhu\\basic\\1.cpp","group":"local","local":true}

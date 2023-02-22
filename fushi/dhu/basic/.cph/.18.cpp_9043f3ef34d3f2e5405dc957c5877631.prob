@@ -1,1 +1,0 @@
-{"name":"Local: 18","url":"d:\\vs_c\\fushi\\dhu\\basic\\18.cpp","tests":[{"id":1675410066698,"input":"1 5\n5 6","output":"1\n2 3\n4 5 6\n7 8 9 1\n2 3 4 5 6\n\n5\n6 7\n8 9 1\n2 3 4 5\n6 7 8 9 1\n2 3 4 5 6 7"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\vs_c\\fushi\\dhu\\basic\\18.cpp","group":"local","local":true}
