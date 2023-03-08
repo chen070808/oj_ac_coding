@@ -21,17 +21,17 @@ int main()
         for (int i = 0; i < 9; i++) // 不同位置
         {
             l = 0, r = 0;
-            for (int j = 0; j < 9; j++)
+            for (int j = 0; j < 9; j++) // 从前向后
             {
                 l *= 10;
                 l += a[(i + j) % 9];
             }
-            for (int j = 8; j >= 0; j--)
+            for (int j = 8; j >= 0; j--) // 从后向前
             {
                 r *= 10;
                 r += a[(i + j) % 9];
             }
-            if (abs(l - r) % 396 == 0)
+            if (abs(l - r) % 396 == 0) // 判断
                 ans++;
         }
         printf("%d\n", ans);
