@@ -8,8 +8,7 @@ int main()
 {
     while (cin >> n >> x)
     {
-
-        for (int i = 1; i < n; i++)
+        for (int i = 1; i < n; i++) // 初始化
         {
             num[i] = i;
         }
@@ -17,15 +16,15 @@ int main()
         int out = x % n;
         while (n)
         {
-            if (n > 1)
+            if (n > 1) // 剩余人数大于1
                 printf("%d ", num[out]);
-            else
+            else // 最后一人
             {
                 printf("%d\n", num[out]);
                 n--;
                 continue;
             }
-            for (int i = out; i <= n - 1; i++)
+            for (int i = out; i <= n - 1; i++) // 踢出第out人
             {
                 num[i] = num[i + 1];
             }
